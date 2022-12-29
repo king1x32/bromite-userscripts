@@ -20,12 +20,12 @@
 // @namespace    luxysiv 
 // @version      {{.version}}
 // @description  Removes cookie banners, based on the browser extension
-// @author       xarantolus
+// @author       luxysiv
 // @match        *://*/*
 // @grant        none
 // @run-at       document-end
-// @homepage     https://github.com/luxysiv/bromite-userscripts
-// @url_source   https://github.com/luxysiv/bromite-userscripts/releases/latest/download/idcac.user.js
+// @homepage     https://github.com/luxysiv/brfumix
+// @url_source   https://github.com/luxysiv/brfumix/raw/main/block/idcac.user.js
 // ==/UserScript==
 /// @stats {{.statistics}}
 

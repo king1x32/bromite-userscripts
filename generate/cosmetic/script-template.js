@@ -8,7 +8,7 @@
 // @grant        none
 // @run-at       document-start
 // @homepage     https://github.com/luxysiv/brfumix
-// @url_source   https://github.com/luxysiv/brfumix/raw/main/cosmetic{{if .isLite}}-lite{{end}}.user.js
+// @url_source   https://github.com/luxysiv/brfumix/raw/main/block/cosmetic{{if .isLite}}-lite{{end}}.user.js
 // ==/UserScript==
 /// @stats {{.statistics}}
 {

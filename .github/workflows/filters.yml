@@ -1,50 +1,32 @@
 name: Build filters
-
 on:
-
   schedule:
-
     - cron: '0 5 * * *'
-
   workflow_dispatch:
-
 jobs:
-
   build:
-
     runs-on: ubuntu-latest
-
     steps:
-
       - name: Checkout repository
-
         uses: actions/checkout@v3
 
       - name: Download ruleset_converter
-
         run: |
-
           wget -O ./ruleset_converter https://github.com/bromite/bromite/releases/latest/download/ruleset_converter
-
           chmod +x ./ruleset_converter
 
       - name: Download filters
-
         run: aria2c --input-file=filterlist.txt
 
       - name: Generate ruleset
-
         run: ./ruleset_converter --input_format=filter-list --output_format=unindexed-ruleset --input_files=$(echo filters/*.txt | tr ' ' ,) --output_file=filters.dat
-
-     - name: Generate tag name
-       run: echo "DATE=$(date +%F-%H-%M)" >> $GITHUB_ENV
   
-     - name: Commit userscript
-       uses: EndBug/add-and-commit@v9.1.1
-       with:
-         add: 'filters.dat'
-         default_author: github_actions
-         message: 'commit at ${{ env.DATE }}'
-         push: true
+      - name: Commit filter
+        uses: EndBug/add-and-commit@v9.1.1
+        with:
+          add: 'filters.dat'
+          default_author: github_actions
+          message: 'commit'
+          push: true
   
 

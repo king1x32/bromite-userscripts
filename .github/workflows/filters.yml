@@ -36,15 +36,15 @@ jobs:
 
         run: ./ruleset_converter --input_format=filter-list --output_format=unindexed-ruleset --input_files=$(echo filters/*.txt | tr ' ' ,) --output_file=filters.dat
 
-    - name: Generate tag name
-      run: echo "DATE=$(date +%F-%H-%M)" >> $GITHUB_ENV
+     - name: Generate tag name
+       run: echo "DATE=$(date +%F-%H-%M)" >> $GITHUB_ENV
   
-    - name: Commit userscript
-      uses: EndBug/add-and-commit@v9.1.1
-      with:
-        add: 'filters.dat'
-        default_author: github_actions
-        message: 'commit at ${{ env.DATE }}'
-        push: true
+     - name: Commit userscript
+       uses: EndBug/add-and-commit@v9.1.1
+       with:
+         add: 'filters.dat'
+         default_author: github_actions
+         message: 'commit at ${{ env.DATE }}'
+         push: true
   
 

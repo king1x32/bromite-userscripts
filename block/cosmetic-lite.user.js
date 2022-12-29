@@ -8,8 +8,8 @@
 // @match        *://*/*
 // @grant        none
 // @run-at       document-start
-// @homepage     https://github.com/luxysiv/bromite-userscripts
-// @url_source   https://github.com/luxysiv/bromite-userscripts/releases/latest/download/cosmetic-lite.user.js
+// @homepage     https://github.com/luxysiv/brfumix
+// @url_source   https://github.com/luxysiv/brfumix/tree/main/block/cosmetic-lite.user.js
 // ==/UserScript==
 /// @stats blockers for 7110 domains, injected CSS rules for 1774 domains
 {

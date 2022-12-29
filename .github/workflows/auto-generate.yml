@@ -1,0 +1,50 @@
+name: Auto-generate scripts
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - "generate/**"
+      - ".github/workflows/**"
+
+  schedule:
+  - cron: "0 9 * * *"
+
+  workflow_dispatch:
+
+jobs:
+
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3.2.0
+
+    - name: Set up Go
+      uses: actions/setup-go@v3.5.0
+      with:
+        go-version: ^1.17
+
+    - name: "Run generator tests"
+      shell: bash
+      run: |
+        sudo bash ./test.sh 2>&1
+      working-directory: generate
+
+    - name: "Run regeneration script"
+      shell: bash
+      run: |
+        sudo bash ./generate-all.sh 2>&1
+      working-directory: generate
+
+
+    - name: Push
+      run: |
+        git config user.name luxysiv 
+        git config user.email manhduonghna@gmail.com
+        git add *.user.js
+        git commit --amend -m "Update: $(date --iso-8601=seconds)" --author="luxysiv <manhduonghna@gmail.com>"
+        git push --force 
+ 
+
+
+        

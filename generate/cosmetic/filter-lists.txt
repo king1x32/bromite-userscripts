@@ -1,0 +1,18 @@
+#Bộ lọc EasyList + Adguard tiếng Anh
+https://filters.adtidy.org/android/filters/2_optimized.txt
+
+#Bộ lọc phiền toái 
+https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_14_Annoyances/filter.txt
+
+#Bộ lọc theo dõi
+https://filters.adtidy.org/android/filters/17_optimized.txt
+
+#ABPVN mod
+https://raw.githubusercontent.com/luxysiv/Blockads/master/Android/abpvn-ext.txt
+
+#Spyware
+https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_3_Spyware/filter.txt
+
+
+#Social
+https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_4_Social/filter.txt

@@ -1,0 +1,46 @@
+name: Build filters
+
+on:
+
+  schedule:
+
+    - cron: '0 5 * * *'
+
+  workflow_dispatch:
+
+jobs:
+
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Checkout repository
+
+        uses: actions/checkout@v3
+
+      - name: Download ruleset_converter
+
+        run: |
+
+          wget -O ./ruleset_converter https://github.com/bromite/bromite/releases/latest/download/ruleset_converter
+
+          chmod +x ./ruleset_converter
+
+      - name: Download filters
+
+        run: aria2c --input-file=filterlist.txt
+
+      - name: Generate ruleset
+
+        run: ./ruleset_converter --input_format=filter-list --output_format=unindexed-ruleset --input_files=$(echo filters/*.txt | tr ' ' ,) --output_file=filters.dat
+
+      - name: Add & Commit
+        uses: EndBug/add-and-commit@v9.1.1
+        with:
+          author_name: GitHub Actions
+          author_email: 41898282+github-actions[bot]@users.noreply.github.com
+          message: update filter 
+          add: filters.dat
+

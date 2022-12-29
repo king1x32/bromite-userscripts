@@ -1,0 +1,21 @@
+https://filters.adtidy.org/android/filters/2_optimized.txt
+
+	out=filters/easylist-aguard.txthttps://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_14_Annoyances/filter.txt
+
+        out=filters/annoyances.txt
+
+https://filters.adtidy.org/android/filters/17_optimized.txt
+
+	out=filters/tracking.txt
+
+https://raw.githubusercontent.com/luxysiv/Blockads/master/Android/abpvn-ext.txt
+
+	out=filters/abpvn-ext.txt
+
+https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_3_Spyware/filter.txt
+
+        out=filters/spyware.txt
+
+https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_4_Social/filter.txt
+
+        out=filters/social_filters.txt

@@ -21,12 +21,12 @@
 // @namespace    luxysiv 
 // @version      2022.12.29
 // @description  Removes cookie banners, based on the browser extension
-// @author       xarantolus
+// @author       luxysiv
 // @match        *://*/*
 // @grant        none
 // @run-at       document-end
-// @homepage     https://github.com/luxysiv/bromite-userscripts
-// @url_source   https://github.com/luxysiv/bromite-userscripts/releases/latest/download/idcac.user.js
+// @homepage     https://github.com/luxysiv/brfumix
+// @url_source   https://github.com/luxysiv/brfumix/raw/main/block/idcac.user.js
 // ==/UserScript==
 /// @stats generated from version `3.4.5` available [here](https://addons.mozilla.org/en/firefox/addon/i-dont-care-about-cookies/)
 

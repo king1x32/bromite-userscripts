@@ -36,7 +36,7 @@ jobs:
         sudo bash ./generate-all.sh 2>&1
       working-directory: generate
 
-    - name: Generate tag name
+    - name: Generate date
       run: echo "DATE=$(date +%F-%H-%M)" >> $GITHUB_ENV
   
     - name: Commit userscript

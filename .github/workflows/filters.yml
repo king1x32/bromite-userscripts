@@ -30,7 +30,7 @@ jobs:
         with:
           add: 'filters.dat'
           default_author: github_actions
-          message: 'update filters at ${{ env.DATE }}'
+          message: 'Update filters: ${{ env.DATE }}'
           push: true
   
 

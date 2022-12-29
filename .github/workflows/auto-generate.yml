@@ -44,6 +44,6 @@ jobs:
       with:
         add: '*.user.js'
         default_author: github_actions
-        message: 'commit at ${{ env.DATE }}'
+        message: 'update userscripts at ${{ env.DATE }}'
         push: true
   

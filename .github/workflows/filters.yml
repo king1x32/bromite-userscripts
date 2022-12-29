@@ -22,7 +22,7 @@ jobs:
         run: ./ruleset_converter --input_format=filter-list --output_format=unindexed-ruleset --input_files=$(echo filters/*.txt | tr ' ' ,) --output_file=filters.dat
   
       - name: Generate date
-      run: echo "DATE=$(date +%F-%H-%M)" >> $GITHUB_ENV
+        run: echo "DATE=$(date +%F-%H-%M)" >> $GITHUB_ENV
       
       
       - name: Commit filter

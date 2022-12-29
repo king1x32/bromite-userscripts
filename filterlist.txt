@@ -1,6 +1,7 @@
 https://filters.adtidy.org/android/filters/2_optimized.txt
 
-	out=filters/easylist-aguard.txthttps://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_14_Annoyances/filter.txt
+	out=filters/easylist-aguard.txt
+https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_14_Annoyances/filter.txt
 
         out=filters/annoyances.txt
 

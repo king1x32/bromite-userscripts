@@ -37,13 +37,13 @@ jobs:
       working-directory: generate
 
 
-    - name: Push
-      run: |
-        git config user.name luxysiv 
-        git config user.email manhduonghna@gmail.com
-        git add *.user.js
-        git commit --amend -m "Update: $(date --iso-8601=seconds)" --author="luxysiv <manhduonghna@gmail.com>"
-        git push --force 
+      - name: Add & Commit
+        uses: EndBug/add-and-commit@v9.1.1
+        with:
+          author_name: GitHub Actions
+          author_email: 41898282+github-actions[bot]@users.noreply.github.com
+          message: update userscripts
+          add: *.user.js
  
 
 

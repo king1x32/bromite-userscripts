@@ -9,7 +9,7 @@
 // @grant        none
 // @run-at       document-start
 // @homepage     https://github.com/luxysiv/brfumix
-// @url_source   https://github.com/luxysiv/brfumix/raw/main/cosmetic-lite.user.js
+// @url_source   https://github.com/luxysiv/brfumix/raw/main/block/cosmetic-lite.user.js
 // ==/UserScript==
 /// @stats blockers for 7111 domains, injected CSS rules for 1775 domains
 {

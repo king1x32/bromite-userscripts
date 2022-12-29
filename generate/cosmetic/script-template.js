@@ -7,8 +7,8 @@
 // @match        *://*/*
 // @grant        none
 // @run-at       document-start
-// @homepage     https://github.com/luxysiv/bromite-userscripts
-// @url_source   https://github.com/luxysiv/bromite-userscripts/releases/latest/download/cosmetic{{if .isLite}}-lite{{end}}.user.js
+// @homepage     https://github.com/luxysiv/brfumix
+// @url_source   https://github.com/luxysiv/brfumix/tree/main/block/cosmetic{{if .isLite}}-lite{{end}}.user.js
 // ==/UserScript==
 /// @stats {{.statistics}}
 {

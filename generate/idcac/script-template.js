@@ -25,7 +25,7 @@
 // @grant        none
 // @run-at       document-end
 // @homepage     https://github.com/luxysiv/brfumix
-// @url_source   https://github.com/luxysiv/brfumix/raw/main/block/idcac.user.js
+// @url_source   https://github.com/luxysiv/brfumix/raw/main/idcac.user.js
 // ==/UserScript==
 /// @stats {{.statistics}}
 

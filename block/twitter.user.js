@@ -8,8 +8,8 @@
 // @match        *://*.twitter.com/*
 // @grant        none
 // @run-at       document-end
-// @homepage     https://github.com/luxysiv/brfumix
-// @url_source   https://github.com/luxysiv/brfumix/raw/main/block/twitter.user.js
+// @homepage     https://github.com/luxysiv/userscripts
+// @url_source   https://github.com/luxysiv/userscripts/raw/main/block/twitter.user.js
 // ==/UserScript==
 
 var log = function (...data) {

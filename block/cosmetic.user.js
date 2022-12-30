@@ -8,8 +8,8 @@
 // @match        *://*/*
 // @grant        none
 // @run-at       document-start
-// @homepage     https://github.com/luxysiv/brfumix
-// @url_source   https://github.com/luxysiv/brfumix/raw/main/block/cosmetic.user.js
+// @homepage     https://github.com/luxysiv/userscripts
+// @url_source   https://github.com/luxysiv/userscripts/raw/main/block/cosmetic.user.js
 // ==/UserScript==
 /// @stats blockers for 30872 domains, injected CSS rules for 5159 domains
 {

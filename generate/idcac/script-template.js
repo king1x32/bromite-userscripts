@@ -24,8 +24,8 @@
 // @match        *://*/*
 // @grant        none
 // @run-at       document-end
-// @homepage     https://github.com/luxysiv/brfumix
-// @url_source   https://github.com/luxysiv/brfumix/raw/main/block/idcac.user.js
+// @homepage     https://github.com/luxysiv/userscripts
+// @url_source   https://github.com/luxysiv/userscripts/raw/main/block/idcac.user.js
 // ==/UserScript==
 /// @stats {{.statistics}}
 

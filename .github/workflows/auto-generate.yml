@@ -47,10 +47,4 @@ jobs:
         message: 'Update userscripts: ${{ env.DATE }}'
         push: true
   
-    - name: Upload release
-      uses: yakuhzi/action-release@v1
-      with:
-        file: "*.user.js"
-        changelog: "${{ env.DATE }}"
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+

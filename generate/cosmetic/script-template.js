@@ -13,7 +13,7 @@
 /// @stats {{.statistics}}
 {
     let log = function (...data) {
-        console.log("[Cosmetic filters by xarantolus (v{{.version}} {{if .isLite}}lite{{else}}full{{end}})]:", ...data);
+        console.log("[Cosmetic filters by luxysiv (v{{.version}} {{if .isLite}}lite{{else}}full{{end}})]:", ...data);
     }
 
 

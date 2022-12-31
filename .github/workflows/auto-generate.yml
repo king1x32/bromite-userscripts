@@ -47,4 +47,8 @@ jobs:
         message: 'Update userscripts: ${{ env.DATE }}'
         push: true
   
-
+      - uses: Shopify/upload-to-release@v1
+        with:
+          name: my-artifact
+          path: *.user.js
+          repo-token: ${{ secrets.GITHUB_TOKEN }}

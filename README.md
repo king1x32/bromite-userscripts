@@ -1,3 +1,7 @@
+# Download Bromite
+<a href="https://github.com/bromite/bromite/releases/latest">
+  <img src="https://www.bromite.org/release.svg" alt="current Bromite release" title="current Bromite release" /> </a>
+
 # Status
 [![Build](https://github.com/luxysiv/userscripts/actions/workflows/auto-generate.yml/badge.svg)](https://github.com/luxysiv/userscripts/actions/workflows/auto-generate.yml)
 

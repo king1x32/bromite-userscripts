@@ -1,3 +1,4 @@
-[![Bromite](https://www.bromite.org/bromite.png)](https://github.com/luxysiv/userscripts/releases/latest/download/cosmetic.user.js)
+# My userscripts to block ads
+Press [![Bromite](https://www.bromite.org/bromite.png)](https://github.com/luxysiv/userscripts/releases/latest/download/cosmetic.user.js) to download 
 
-[![Build](https://github.com/luxysiv/userscripts/actions/workflows/auto-generate.yml/badge.svg)](https://github.com/luxysiv/userscripts/actions/workflows/auto-generate.yml)
+Status updated: [![Build](https://github.com/luxysiv/userscripts/actions/workflows/auto-generate.yml/badge.svg)](https://github.com/luxysiv/userscripts/actions/workflows/auto-generate.yml)

@@ -1,4 +1,4 @@
-name: Auto-generate scripts
+name: Tạo userscripts
 
 on:
   push:

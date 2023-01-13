@@ -11,4 +11,4 @@
 # About 
 Copycat and edit from [xarantolus/bromite-userscripts](https://github.com/xarantolus/bromite-userscripts)
 
-# Thanks author xarantolus 
+# Thanks author [xarantolus](https://github.com/xarantolus)

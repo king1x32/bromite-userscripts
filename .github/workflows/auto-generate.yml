@@ -47,14 +47,12 @@ jobs:
         message: 'Cập nhật userscript: ${{ env.DATE }}'
         push: true
 
-    - name: Release scripts
+    - name: Release filters list
       uses: softprops/action-gh-release@v1
       with:
-        files: block/cosmetic.user.js
-        name: Automatic script generation
+        files: cosmetic.user.js
+        name: Userscript ${{ env.DATE }}
         tag_name: ${{ env.DATE }}
-        body: "This release contains all scripts provided by this repository.\n\nPlease see [the main project page](${{ github.server_url }}/${{ github.repository }}) for a description of the scripts."
-        body_path: generate/release/release.md
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 

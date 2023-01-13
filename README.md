@@ -7,3 +7,8 @@
 
 # Download
 [![Bromite](https://www.bromite.org/bromite.png)](https://github.com/luxysiv/userscripts/releases/latest/download/cosmetic.user.js)
+
+# About 
+Copycat and edit from [xarantolus/bromite-userscripts](https://github.com/xarantolus/bromite-userscripts)
+
+# Thanks author xarantolus 

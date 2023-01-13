@@ -50,7 +50,7 @@ jobs:
     - name: Release filters list
       uses: softprops/action-gh-release@v1
       with:
-        files: 'cosmetic.user.js'
+        files: block/cosmetic.user.js
         name: Userscript ${{ env.DATE }}
         tag_name: ${{ env.DATE }}
       env:

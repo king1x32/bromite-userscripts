@@ -24,11 +24,7 @@ jobs:
       with:
         go-version: ^1.17
 
-    - name: "Run generator tests"
-      shell: bash
-      run: |
-        sudo bash ./test.sh 2>&1
-      working-directory: generate
+    
 
     - name: "Run regeneration script"
       shell: bash

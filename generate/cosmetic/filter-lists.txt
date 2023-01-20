@@ -1,5 +1,5 @@
 //adguad-easy.txt 
-ttps://filters.adtidy.org/android/filters/2_optimized.txt
+https://filters.adtidy.org/android/filters/2_optimized.txt
 //spyware.txt 
 https://filters.adtidy.org/android/filters/3_optimized.txt
 //social.txt 

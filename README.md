@@ -6,7 +6,7 @@
 [![Tạo userscripts](https://github.com/luxysiv/userscripts/actions/workflows/auto-generate.yml/badge.svg)](https://github.com/luxysiv/userscripts/actions/workflows/auto-generate.yml)
 
 # Download
-[![Bromite](https://www.bromite.org/bromite.png)](https://github.com/luxysiv/userscripts/releases/latest/download/cosmetic.user.js)
+[![Release](https://img.shields.io/github/v/release/luxysiv/userscripts.svg)](https://github.com/luxysiv/userscripts/releases/latest/download/cosmetic.user.js)
 
 # About 
 Copycat and edit from [xarantolus/bromite-userscripts](https://github.com/xarantolus/bromite-userscripts)

@@ -10,3 +10,18 @@ https://filters.adtidy.org/android/filters/14_optimized.txt
 https://filters.adtidy.org/android/filters/17_optimized.txt
 #ABPVN mod
 https://github.com/luxysiv/custom-ads-filters/raw/main/abpvn-ext.txt
+#AdGuard Tracking Protection filter
+https://filters.adtidy.org/extension/ublock/filters/3_optimized.txt
+#AdGuard Mobile Ads filter
+https://filters.adtidy.org/extension/ublock/filters/11_optimized.txt
+#Anti popads.net
+https://github.com/Yhonay/antipopads/raw/master/popads.txt
+
+https://github.com/AdguardTeam/AdguardFilters/raw/master/AnnoyancesFilter/Popups/sections/antiadblock.txt
+https://github.com/AdguardTeam/AdguardFilters/raw/master/AnnoyancesFilter/MobileApp/sections/mobile-app_specific.txt
+https://github.com/AdguardTeam/AdguardFilters/raw/master/AnnoyancesFilter/Other/sections/annoyances.txt
+https://github.com/AdguardTeam/AdguardFilters/raw/master/AnnoyancesFilter/Other/sections/self-promo.txt
+
+https://github.com/AdguardTeam/FiltersRegistry/raw/master/filters/ThirdParty/filter_118_EasyPrivacy/filter.txt
+https://github.com/AdguardTeam/FiltersRegistry/blob/master/filters/filter_19_Annoyances_Popups/filter.txt
+

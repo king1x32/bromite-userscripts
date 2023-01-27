@@ -1,14 +1,14 @@
 // ==UserScript==
 // @name         Cosmetic Ad Block for Bromite{{if .isLite}} (Lite){{end}}
-// @namespace    luxysiv
+// @namespace    kingsmanvn
 // @version      {{.version}}
 // @description  Blocks annoying elements in {{if .isLite}}top {{.topDomainCount}} domains{{else}}pages{{end}}, sourced from many different filter lists
-// @author       luxysiv 
+// @author       kingsmanvn 
 // @match        *://*/*
 // @grant        none
 // @run-at       document-start
-// @homepage     https://github.com/luxysiv/userscripts
-// @url_source   https://github.com/luxysiv/userscripts/releases/latest/download/cosmetic{{if .isLite}}-lite{{end}}.user.js
+// @homepage     https://github.com/Kingsmanvn-Official/bromite-userscripts
+// @url_source   https://github.com/Kingsmanvn-Official/bromite-userscripts/releases/latest/download/cosmetic{{if .isLite}}-lite{{end}}.user.js
 // ==/UserScript==
 /// @stats {{.statistics}}
 {

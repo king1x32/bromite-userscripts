@@ -15,6 +15,7 @@ https://filters.adtidy.org/extension/ublock/filters/11_optimized.txt
 #Anti popads.net
 https://github.com/Yhonay/antipopads/raw/master/popads.txt
 
+https://raw.githubusercontent.com/stephenhawk8054/PrivacyExtended/main/privacy_extended.txt
 https://github.com/AdguardTeam/AdguardFilters/raw/master/AnnoyancesFilter/Popups/sections/antiadblock.txt
 https://github.com/AdguardTeam/AdguardFilters/raw/master/AnnoyancesFilter/MobileApp/sections/mobile-app_specific.txt
 https://github.com/AdguardTeam/AdguardFilters/raw/master/AnnoyancesFilter/Other/sections/annoyances.txt

@@ -8,7 +8,7 @@
 // @grant        none
 // @run-at       document-start
 // @homepage     https://github.com/Kingsmanvn-Official/bromite-userscripts
-// @url_source   https://github.com/Kingsmanvn-Official/bromite-userscripts/releases/latest/download/cosmetic{{if .isLite}}-lite{{end}}.user.js
+// @downloadURL   https://github.com/Kingsmanvn-Official/bromite-userscripts/releases/latest/download/cosmetic{{if .isLite}}-lite{{end}}.user.js
 // ==/UserScript==
 /// @stats {{.statistics}}
 {

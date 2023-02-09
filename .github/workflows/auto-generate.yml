@@ -30,7 +30,7 @@ jobs:
           sudo bash ./generate-all.sh 2>&1
         working-directory: generate
 
-     - name: Generate date
+      - name: Generate date
         run: echo "DATE=$(TZ='Asia/Ho_Chi_Minh' date +"%Y.%m.%d-%H.%M.%S")" >> $GITHUB_ENV
   
       - name: Commit userscript 

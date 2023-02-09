@@ -1,7 +1,7 @@
 #Bộ lọc EasyList
 https://easylist.to/easylist/easylist.txt
 #ABPVN mod
-https://github.com/luxysiv/custom-ads-filters/raw/main/abpvn-ext.txt
+https://github.com/luxysiv/custom-filters/raw/main/abpvn-ext.txt
 #Bộ lọc EasyList + Adguard tiếng Anh
 https://filters.adtidy.org/android/filters/2_optimized.txt
 #Spyware

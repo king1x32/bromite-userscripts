@@ -9,7 +9,7 @@
 // @grant        none
 // @run-at       document-start
 // @homepage     https://github.com/Kingsmanvn-Official/bromite-userscripts
-// @url_source   https://github.com/Kingsmanvn-Official/bromite-userscripts/releases/latest/download/cosmetic.user.js
+// @downloadURL   https://github.com/Kingsmanvn-Official/bromite-userscripts/releases/latest/download/cosmetic.user.js
 // ==/UserScript==
 /// @stats blockers for 27724 domains, injected CSS rules for 7655 domains
 {

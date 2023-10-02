@@ -2,7 +2,7 @@
 // ==UserScript==
 // @name         Cosmetic Ad Block for Bromite
 // @namespace    kingsmanvn
-// @version      2023.10.01
+// @version      2023.10.02
 // @description  Blocks annoying elements in pages, sourced from many different filter lists
 // @author       kingsmanvn 
 // @match        *://*/*
@@ -14,7 +14,7 @@
 /// @stats blockers for 29893 domains, injected CSS rules for 5058 domains
 {
     let log = function (...data) {
-        console.log("[Cosmetic filters by luxysiv (v2023.10.01 full)]:", ...data);
+        console.log("[Cosmetic filters by luxysiv (v2023.10.02 full)]:", ...data);
     }
 
 
